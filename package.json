@@ -1,0 +1,16 @@
+{
+  "name": "dns-server",
+  "version": "1.0.0",
+  "description": "A basic dns server build on node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dns-packet": "^5.6.1",
+    "nodemon": "^3.1.7"
+  }
+}
